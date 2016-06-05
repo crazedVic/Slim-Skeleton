@@ -15,7 +15,14 @@ require __DIR__ . '/../vendor/autoload.php';
 session_start();
 
 // Instantiate the app
-$settings = require __DIR__ . '/../src/settings.php';
+$settings => [
+        'displayErrorDetails' => true, // set to false in production
+        // Renderer settings
+        'renderer' => [
+            'template_path' => __DIR__ . '/../templates/',
+        ]
+];
+
 $app = new \Slim\App($settings);
 
 // Run app
