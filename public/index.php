@@ -25,5 +25,10 @@ $settings => [
 
 $app = new \Slim\App($settings);
 
+$app->get('/', function ($request, $response, $args) {
+    // Render index view
+    return "hello world";
+});
+
 // Run app
 $app->run();
