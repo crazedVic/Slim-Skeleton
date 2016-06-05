@@ -1,6 +1,6 @@
 {
     "name": "crazedvic/slim-skeleton",
-    "description": "A Slim Framework skeleton application for rapid development",
+    "description": "A barebones Slim Framework 3.x skeleton application for rapid development",
     "keywords": ["microframework","rest","router", "psr7"],
     "homepage": "http://github.com/slimphp/Slim-Skeleton",
     "license": "MIT",
