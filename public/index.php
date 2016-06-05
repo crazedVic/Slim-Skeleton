@@ -15,7 +15,7 @@ require __DIR__ . '/../vendor/autoload.php';
 session_start();
 
 // Instantiate the app
-$settings => [
+$settings = [
         'displayErrorDetails' => true, // set to false in production
         // Renderer settings
         'renderer' => [
