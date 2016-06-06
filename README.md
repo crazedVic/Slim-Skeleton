@@ -1,6 +1,6 @@
 # Slim Framework 3 Super Basic Application Skeleton
 
-Use this skeleton application to quickly setup and start working on a new Slim Framework 3 application.  I'm using this on http://nitrous.io specifically and have modified the files so this all works right away.  I've removed the php-view and the monolog stuff as I can add that later and I actually prefer TWIG.
+Use this skeleton application to quickly setup and start working on a new Slim Framework 3 application.  I'm using this on http://nitrous.io specifically and have modified the files so this all works right away.  I've removed the php-view and the monolog stuff as I can add that later and I actually prefer TWIG.  Also had to lower min version requirement of Slim to 3.0 so slim/twig-view would install.
 
 This skeleton application was built for Composer. This makes setting up a new Slim Framework application quick and easy.
 
