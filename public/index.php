@@ -17,10 +17,6 @@ session_start();
 // Instantiate the app
 $settings = [
         'displayErrorDetails' => true, // set to false in production
-        // Renderer settings
-        'renderer' => [
-            'template_path' => __DIR__ . '/../templates/',
-        ]
 ];
 
 $app = new \Slim\App($settings);
