@@ -16,7 +16,7 @@ Replace `[my-app-name]` with the desired directory name for your new application
 
 Then cd to the `[my-app-name]` folder and type in:
 
-php -S 0.0.0.0:8080 -t public public/index.php
+    php -S 0.0.0.0:8080 -t public public/index.php
 
 Now you can go visit the default site if it's running on your own machine at http://localhost:8080 or if you are using NITROUS.IO click Preview in the Menu and select Port 8080.
 
