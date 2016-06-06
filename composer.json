@@ -1,7 +1,7 @@
 {
     "name": "crazedvic/slim-skeleton",
-    "description": "A barebones Slim Framework 3.x skeleton application for rapid development",
-    "keywords": ["microframework","rest","router", "psr7"],
+    "description": "A barebones Slim Framework 3.x skeleton application for rapid development on nitrous.io",
+    "keywords": ["microframework","rest","router", "psr7", "nitrous", "nitrous.io"],
     "homepage": "http://github.com/slimphp/Slim-Skeleton",
     "license": "MIT",
     "authors": [
